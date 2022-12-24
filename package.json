@@ -1,0 +1,20 @@
+{
+  "name": "custom-arr-methods",
+  "version": "1.0.0",
+  "description": "Immutable custom array methods",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuraveln/custom-arr-methods.git"
+  },
+  "keywords": [],
+  "author": "https://github.com/zhuraveln",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhuraveln/custom-arr-methods/issues"
+  },
+  "homepage": "https://github.com/zhuraveln/custom-arr-methods#readme"
+}
