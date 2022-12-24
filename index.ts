@@ -5,7 +5,7 @@
  * @return new array
  */
 export function insert<Type>(array: Type[], destinationIndex: number, element: Type): Type[] {
-  return [...array.slice(0, destinationIndex), element, ...array.slice(destinationIndex)];
+  return [...array.slice(0, destinationIndex), element, ...array.slice(destinationIndex)]
 }
 
 //----------------------------------------------------------------
@@ -15,7 +15,7 @@ export function insert<Type>(array: Type[], destinationIndex: number, element: T
  * @return new array
  */
 export function removeOne<Type>(array: Type[], index: number): Type[] {
-  return [...array.slice(0, index), ...array.slice(index + 1)];
+  return [...array.slice(0, index), ...array.slice(index + 1)]
 }
 
 //----------------------------------------------------------------
@@ -29,12 +29,12 @@ export function removeMultiple<Type>(array: Type[], indexes: number[]): Type[] {
     ...array.filter((_, index) => {
       for (let i = 0; i < indexes.length; i++) {
         if (index === indexes[i]) {
-          return false;
+          return false
         }
       }
-      return true;
+      return true
     }),
-  ];
+  ]
 }
 
 //----------------------------------------------------------------
@@ -44,7 +44,7 @@ export function removeMultiple<Type>(array: Type[], indexes: number[]): Type[] {
  * @return new array
  */
 export function replace<Type>(array: Type[], index: number, element: Type): Type[] {
-  return [...insert(removeOne(array, index), index, element)];
+  return [...insert(removeOne(array, index), index, element)]
 }
 
 //----------------------------------------------------------------
@@ -58,7 +58,7 @@ export function swapOne<Type>(
   sourceIndex: number,
   destinationIndex: number,
 ): Type[] {
-  return [...insert(removeOne(array, sourceIndex), destinationIndex, array[sourceIndex])];
+  return [...insert(removeOne(array, sourceIndex), destinationIndex, array[sourceIndex])]
 }
 
 //----------------------------------------------------------------
@@ -82,7 +82,7 @@ export function swapTwo<Type>(
       secondElementIndex,
       array[firstElementIndex],
     ),
-  ];
+  ]
 }
 
 //----------------------------------------------------------------
