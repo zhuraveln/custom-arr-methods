@@ -4,6 +4,8 @@ Custom immutable array's methods for different scenarios
 
 All methods returned a new array
 
+Also available all default mutable array's methods to immutable [immutable-arr-methods](https://www.npmjs.com/package/immutable-arr-methods)
+
 ## Installation
 
 ```bash

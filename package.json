@@ -25,5 +25,6 @@
   "bugs": {
     "url": "https://github.com/zhuraveln/custom-arr-methods/issues"
   },
-  "homepage": "https://github.com/zhuraveln/custom-arr-methods#readme"
+  "homepage": "https://github.com/zhuraveln/custom-arr-methods#readme",
+  "dependencies": {}
 }
