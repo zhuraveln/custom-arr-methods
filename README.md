@@ -1,24 +1,19 @@
 # custom-arr-methods
 
 Custom immutable array's methods for different scenarios
+All methods returned a new array
 
 ## Installation
 
-Download node at [node.js](https://nodejs.org/) and install it, if you haven't already
-
 ```bash
 npm install custom-arr-methods
-```
-
-```bash
-yarn add custom-arr-methods
 ```
 
 ## Usage
 
 ### insert
 
-Immutable inserts element into array by destination index
+Immutable insert element into array **by destination index**
 
 ```javascript
 import { insert } from 'custom-arr-methods'
@@ -33,7 +28,7 @@ console.log(j) // [1, 2, 42, 3, 4, 5]
 
 ### removeOne
 
-Immutable remove element from array by element's index
+Immutable remove element from array **by element's index**
 
 ```javascript
 import { removeOne } from 'custom-arr-methods'
@@ -48,7 +43,7 @@ console.log(j) // [1, 2, 4, 5]
 
 ### removeMultiple
 
-Immutable remove elements from array by element's indexes
+Immutable remove elements from array **by element's indexes**
 
 ```javascript
 import { removeMultiple } from 'custom-arr-methods'
@@ -63,7 +58,7 @@ console.log(j) // [2, 3, 4]
 
 ### replace
 
-Immutable replace element in array by element's index
+Immutable replace element in array **by element's index**
 
 ```javascript
 import { replace } from 'custom-arr-methods'
@@ -78,7 +73,7 @@ console.log(j) // [1, 2, 42, 4, 5]
 
 ### swapOne
 
-Immutable change position for one element in array by source and destination index
+Immutable change position for one element in array **by source and destination index**
 
 ```javascript
 import { swapOne } from 'custom-arr-methods'
@@ -93,7 +88,7 @@ console.log(j) // [2, 3, 4, 5, 1]
 
 ### swapTwo
 
-Immutable swap positions for two elements in array by element's indexes
+Immutable swap positions for two elements in array **by element's indexes**
 
 ```javascript
 import { swapTwo } from 'custom-arr-methods'

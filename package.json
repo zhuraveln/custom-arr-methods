@@ -10,7 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/zhuraveln/custom-arr-methods.git"
   },
-  "keywords": [],
+  "keywords": [
+    "immutable",
+    "custom",
+    "array",
+    "methods",
+    "insert",
+    "remove",
+    "replace",
+    "swap"
+  ],
   "author": "https://github.com/zhuraveln",
   "license": "ISC",
   "bugs": {
