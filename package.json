@@ -1,6 +1,6 @@
 {
   "name": "custom-arr-methods",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Immutable custom array methods",
   "main": "index.ts",
   "scripts": {
