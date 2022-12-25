@@ -13,7 +13,7 @@ npm install custom-arr-methods
 ## Usage
 
 **All methods have tooltips when you hover over them**
-![tooltips-example](/src/assets/Demo-1.png)
+![tooltips-example](https://drive.google.com/uc?id=1AVGqbKJuDmajtsIpS2ex8ZT-oQB7UvQS)
 
 ### insert
 
