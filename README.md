@@ -1,6 +1,7 @@
 # custom-arr-methods
 
 Custom immutable array's methods for different scenarios
+
 All methods returned a new array
 
 ## Installation
@@ -10,6 +11,9 @@ npm install custom-arr-methods
 ```
 
 ## Usage
+
+**All methods have tooltips when you hover over them**
+![tooltips-example](/src/assets/Demo-1.png)
 
 ### insert
 
